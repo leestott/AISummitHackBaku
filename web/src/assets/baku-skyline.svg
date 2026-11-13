@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 730" fill="none">
+  <title>A day on the Caspian shore</title>
+  <desc>Original illustrated panorama of Baku, with the curved Flame Towers behind the sandstone Old City and Maiden Tower, facing the Caspian Sea.</desc>
+  <defs>
+    <pattern id="tower-windows" width="18" height="28" patternUnits="userSpaceOnUse" patternTransform="skewX(-8)">
+      <path d="M0 0v28M0 0h18" stroke="#b5d6d4" stroke-width="1" opacity=".6"/>
+    </pattern>
+    <pattern id="stone" width="46" height="24" patternUnits="userSpaceOnUse">
+      <path d="M0 0h46M0 24h46M23 0v12M0 12h46M0 12v12M46 12v12" stroke="#b89f7a" stroke-width="1" opacity=".45"/>
+    </pattern>
+    <clipPath id="tower-a"><path d="M230 420c-17-98-8-226 63-330-13 101 37 140 35 330Z"/></clipPath>
+    <clipPath id="tower-b"><path d="M330 422c-1-124 38-204 111-262-36 83-19 171-6 262Z"/></clipPath>
+    <clipPath id="tower-c"><path d="M170 426c-49-60-70-144-52-209 31 70 94 104 111 209Z"/></clipPath>
+  </defs>
+  <path fill="#e5efeb" d="M0 0h1100v730H0z"/>
+  <circle cx="837" cy="137" r="67" fill="#edcf9a"/>
+  <path d="M604 108h74m20 0h80M524 145h86m306 85h107" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <path d="m1 397 89-40 93 23 101-30 124 35 149-18 115 32 130-18 139 28 159-22v146H0Z" fill="#c0d0c3"/>
+  <path d="M0 434c163-10 258-63 443-8 155 46 287-16 421 3 110 16 174 28 236 11v124H0Z" fill="#adc3b6"/>
+  <path d="M170 426c-49-60-70-144-52-209 31 70 94 104 111 209Z" fill="#668f8b"/>
+  <path d="M105 208h132v230H105z" fill="url(#tower-windows)" clip-path="url(#tower-c)"/>
+  <path d="M230 420c-17-98-8-226 63-330-13 101 37 140 35 330Z" fill="#3d6b6c"/>
+  <path d="M200 80h150v350H200z" fill="url(#tower-windows)" clip-path="url(#tower-a)"/>
+  <path d="M330 422c-1-124 38-204 111-262-36 83-19 171-6 262Z" fill="#739b93"/>
+  <path d="M320 150h140v280H320z" fill="url(#tower-windows)" clip-path="url(#tower-b)"/>
+  <path d="M244 416c-11-118 12-217 49-326m53 328c-1-92 40-198 95-258" stroke="#bad5ce" stroke-width="3"/>
+  <path d="M584 369h54v98h-54z" fill="#ccd0ba"/>
+  <path d="M598 348h24v22h-24zM746 340h51v129h-51zM816 368h38v98h-38zM875 353h22v114h-22z" fill="#bccab9"/>
+  <path d="M0 484c171-35 276-10 412 17 227 45 429-2 688-17v246H0Z" fill="#73aaa5"/>
+  <path d="M0 533c181-43 348 24 492 29 213 6 420-53 608-22" stroke="#a5cfca" stroke-width="2"/>
+  <path d="M0 580c195-36 383 31 562 22 165-8 349-46 538-24M0 638c193-12 307 16 528 9 216-8 337-25 572-13M283 699c210 6 382-24 632-14" stroke="#abd1c9" stroke-width="1.5"/>
+  <path d="M0 487c195-27 333 27 452 44 145 20 259-19 386-18 96 1 177 23 262 18" stroke="#f5ecdb" stroke-width="18"/>
+  <path d="M0 496c195-27 333 27 452 44 145 20 259-19 386-18 96 1 177 23 262 18" stroke="#d0be9f" stroke-width="2"/>
+  <path d="M34 353h74v120H34z" fill="#d8c6a7"/>
+  <path d="m29 353 42-25 42 25" fill="#bca788"/>
+  <path d="M127 387h71v91h-71zM210 395h105v89H210zM321 375h62v124h-62z" fill="#e1ceb0"/>
+  <path d="M221 395v-10h19v10m15 0v-10h18v10m15 0v-10h18v10" stroke="#cdb58f" stroke-width="10"/>
+  <path d="M452 416h64v87h-64zM522 397h78v111h-78zM619 422h42v87h-42z" fill="#e7d5b6"/>
+  <path d="M521 398c0-45 78-45 78 0" fill="#bbad90"/>
+  <path d="M676 427h41v80h-41zM690 363h12v68h-12z" fill="#d9c8aa"/>
+  <path d="m686 364 10-17 10 17" fill="#a2947b"/>
+  <g fill="#728d83">
+    <path d="M48 376h12v18H48zM80 376h12v18H80zM48 414h12v18H48zM80 414h12v18H80zM141 405h12v16h-12zM173 405h12v16h-12zM231 415h15v20h-15zM266 415h15v20h-15zM341 396h14v21h-14zM341 434h14v21h-14zM470 436h12v17h-12zM540 420h14v19h-14zM573 420h14v19h-14z"/>
+    <path d="M150 478v-24a13 13 0 0 1 26 0v24M258 484v-24a13 13 0 0 1 26 0v24M551 508v-37a13 13 0 0 1 26 0v37"/>
+  </g>
+  <path d="M392 360h69v140h-69z" fill="#c7af89"/>
+  <path d="M392 360c0-16 69-16 69 0v143c-15 9-53 9-69-3Z" fill="#d2bd98"/>
+  <path d="M392 356h69v148h-69z" fill="url(#stone)"/>
+  <path d="M389 359c20 8 55 8 76 0v-12c-20 7-55 7-76 0Z" fill="#dfcaa7"/>
+  <path d="M400 345v-10h9v12m9 2v-14h9v14m9-1v-13h9v11m10-2v-9h9v7" stroke="#bba17b" stroke-width="5"/>
+  <path d="M419 391v-13a7 7 0 0 1 14 0v13m-14 36v-13a7 7 0 0 1 14 0v13" fill="#697f70"/>
+  <path d="M453 413h19v88l-19 4Z" fill="#bca47e"/>
+  <path d="M0 452h27v-12h19v12h31v-12h20v12h31v-12h20v12h32v-12h20v12h31v-12h20v12h32v-12h20v12h31v-12h20v12h26v48c-139-20-251-33-380-12Z" fill="#cdb48e"/>
+  <path d="M0 463h380v38c-155-23-259-32-380-13Z" fill="url(#stone)"/>
+  <path d="M91 484v-16a15 15 0 0 1 30 0v18" fill="#77856f"/>
+  <path d="M746 488c36-15 53-92 92-85 44 9 39 76 101 78h38v14H745Z" fill="#f9f8ec"/>
+  <path d="M750 490c72-1 51-63 89-70 20 18 23 69 96 71" stroke="#ced5c7" stroke-width="2"/>
+  <path d="M769 492c55-5 45-39 67-51 15 30 20 45 60 52" fill="#a5bcb1"/>
+  <g fill="#527b67">
+    <path d="M16 434c-22 0-19-31-5-34-15-28 16-45 24-24 28-6 28 27 14 30 11 17-5 31-18 29Z"/>
+    <path d="M636 471c-19-3-20-21-8-27-18-25 7-37 15-23 22-12 33 13 17 22 17 14 0 30-13 28Z"/>
+    <path d="M1002 462c-25-3-27-29-13-36-14-28 14-40 24-22 26-9 36 17 17 27 18 19-3 33-16 31Z"/>
+    <path d="M953 488c-15-1-21-19-7-26-11-18 7-30 18-18 20-3 26 17 10 26 11 12-3 22-21 18Z"/>
+  </g>
+  <path d="M26 420v62m617-23v47m364-57v74m-50-52v47" stroke="#7d8062" stroke-width="5"/>
+  <path d="M157 508v22m0-18h15m-10-8a4 4 0 1 0 0-.1M313 541v19m-5-13h12m-6-12a4 4 0 1 0 0-.1M818 531v21m0-16h11m-6-11a4 4 0 1 0 0-.1" stroke="#365f5a" stroke-width="3" stroke-linecap="round"/>
+  <path d="m698 613 31-44v44Zm34 0v-60l29 60Z" fill="#f4ecda"/>
+  <path d="M692 618h76l-12 9h-52Z" fill="#345f5c"/>
+  <path d="M730 552v68" stroke="#527973" stroke-width="2"/>
+  <path d="M797 289q9-9 18 0 9-9 18 0m95 31q7-7 14 0 7-7 14 0" stroke="#78918a" stroke-width="2" stroke-linecap="round"/>
+</svg>
