@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+.data/
+.env
+.env.*
+!.env.example
+.azure/*
+!.azure/plan.md
+*.log
+playwright-report/
+test-results/

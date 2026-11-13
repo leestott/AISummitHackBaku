@@ -1,0 +1,275 @@
+{
+  "baseline": "2026-11-13",
+  "confirmed_rail_holidays": [],
+  "novruz": {
+    "name": "Novruz",
+    "month": 3,
+    "first_day": 20,
+    "last_day": 26,
+    "dates_confirmed": false,
+    "note": "Illustrative annual late-March overlay, not a confirmed event or railway calendar. Confirm dates."
+  },
+  "destinations": [
+    {"id": "baku", "name": "Baku", "lat": 40.369, "lon": 49.84},
+    {"id": "sheki", "name": "Sheki", "lat": 41.203, "lon": 47.19},
+    {"id": "gabala", "name": "Gabala", "lat": 40.998, "lon": 47.87},
+    {"id": "guba", "name": "Guba", "lat": 41.365, "lon": 48.514},
+    {"id": "shahdag", "name": "Shahdag", "lat": 41.322, "lon": 48.132},
+    {"id": "ganja", "name": "Ganja", "lat": 40.682, "lon": 46.36}
+  ],
+  "metro": [
+    {"name": "Icheri Sheher", "lat": 40.3659, "lon": 49.8314},
+    {"name": "Sahil", "lat": 40.3719, "lon": 49.8447},
+    {"name": "28 May", "lat": 40.3796, "lon": 49.8488},
+    {"name": "Nizami", "lat": 40.3793, "lon": 49.8308},
+    {"name": "Elmlar Akademiyasi", "lat": 40.375, "lon": 49.8155},
+    {"name": "Inshaatchilar", "lat": 40.3908, "lon": 49.8025},
+    {"name": "20 Yanvar", "lat": 40.4048, "lon": 49.8076},
+    {"name": "Memar Ajami", "lat": 40.4111, "lon": 49.8158},
+    {"name": "8 November", "lat": 40.4026, "lon": 49.8341},
+    {"name": "Ganjlik", "lat": 40.4009, "lon": 49.8515},
+    {"name": "Nariman Narimanov", "lat": 40.4025, "lon": 49.8717},
+    {"name": "Bakmil", "lat": 40.4148, "lon": 49.8773},
+    {"name": "Ulduz", "lat": 40.4147, "lon": 49.8919},
+    {"name": "Koroglu", "lat": 40.4206, "lon": 49.9182},
+    {"name": "Qara Qarayev", "lat": 40.4175, "lon": 49.9345},
+    {"name": "Neftchilar", "lat": 40.4101, "lon": 49.9431},
+    {"name": "Khalglar Dostlugu", "lat": 40.3971, "lon": 49.9527},
+    {"name": "Ahmadli", "lat": 40.3855, "lon": 49.9536},
+    {"name": "Hazi Aslanov", "lat": 40.3739, "lon": 49.954},
+    {"name": "Shah Ismail Khatai", "lat": 40.3837, "lon": 49.8716}
+  ],
+  "hotels": [
+    {
+      "id": "HTL-BAK-001", "name": "Qala Courtyard House", "destination_id": "baku",
+      "district": "Icherisheher (Old City)", "lat": 40.3663, "lon": 49.8337,
+      "stars": 4, "base_rate_azn": 210, "guest_score": 9.2, "family_friendly": true,
+      "amenities": ["wifi", "breakfast", "courtyard", "family-rooms"],
+      "description": "Fictional courtyard guesthouse inside the real Old City. Cobbled streets can make luggage and step-free access difficult."
+    },
+    {
+      "id": "HTL-BAK-002", "name": "Caspian Promenade Hotel", "destination_id": "baku",
+      "district": "Baku Boulevard / Sahil", "lat": 40.3709, "lon": 49.8441,
+      "stars": 5, "base_rate_azn": 390, "guest_score": 9.4, "family_friendly": true,
+      "amenities": ["wifi", "breakfast", "pool", "sea-view", "lift", "family-rooms"],
+      "description": "Fictional waterfront hotel in the Sahil area, convenient for the Boulevard."
+    },
+    {
+      "id": "HTL-BAK-003", "name": "Nizami Street Suites", "destination_id": "baku",
+      "district": "Fountains Square / Nizami Street", "lat": 40.3722, "lon": 49.8381,
+      "stars": 4, "base_rate_azn": 180, "guest_score": 8.9, "family_friendly": true,
+      "amenities": ["wifi", "kitchenette", "lift", "family-rooms"],
+      "description": "Fictional suites by the pedestrian shopping streets. Sahil is the nearest seeded metro station, computed from coordinates."
+    },
+    {
+      "id": "HTL-BAK-004", "name": "Flame Hill Residence", "destination_id": "baku",
+      "district": "Upland Park / Flame Towers", "lat": 40.3595, "lon": 49.8278,
+      "stars": 5, "base_rate_azn": 420, "guest_score": 9.3, "family_friendly": true,
+      "amenities": ["wifi", "breakfast", "pool", "spa", "lift", "family-rooms"],
+      "description": "Fictional hilltop residence. The metro distance is straight-line, not an accessible walking route; allow for the steep hill or a taxi."
+    },
+    {
+      "id": "HTL-BAK-005", "name": "Station Square Inn", "destination_id": "baku",
+      "district": "28 May station", "lat": 40.3801, "lon": 49.8494,
+      "stars": 3, "base_rate_azn": 95, "guest_score": 8.4, "family_friendly": true,
+      "amenities": ["wifi", "breakfast", "lift", "family-rooms"],
+      "description": "Fictional inn near the 28 May interchange, railway station and H1 terminus."
+    },
+    {
+      "id": "HTL-BAK-006", "name": "White City Lofts", "destination_id": "baku",
+      "district": "White City", "lat": 40.3848, "lon": 49.8874,
+      "stars": 4, "base_rate_azn": 160, "guest_score": 8.8, "family_friendly": true,
+      "amenities": ["wifi", "kitchenette", "lift", "family-rooms"],
+      "description": "Fictional apartments in White City, east of Port Baku. Khatai, not Koroglu or Ganjlik, is nearest in the approximate station dataset."
+    },
+    {
+      "id": "HTL-BAK-007", "name": "Absheron Shore Resort", "destination_id": "baku",
+      "district": "Mardakan / Absheron coast", "lat": 40.501, "lon": 50.145,
+      "stars": 5, "base_rate_azn": 350, "guest_score": 8.7, "family_friendly": true,
+      "amenities": ["wifi", "breakfast", "pool", "beach", "parking", "family-rooms"],
+      "description": "Fictional coastal resort at Mardakan, not central Baku. No practical walk to the metro: use a direct airport transfer and budget road journeys to the city."
+    },
+    {
+      "id": "HTL-SHK-001", "name": "Silk Caravan Guesthouse", "destination_id": "sheki",
+      "district": "Sheki old town", "lat": 41.201, "lon": 47.192,
+      "stars": 3, "base_rate_azn": 85, "guest_score": 9.0, "family_friendly": true,
+      "amenities": ["wifi", "breakfast", "courtyard", "family-rooms"],
+      "description": "Fictional guesthouse near Sheki's historic centre. The station is outside town; any announced sleeper timetable must be reconfirmed."
+    },
+    {
+      "id": "HTL-GAB-001", "name": "Tufandag Valley Lodge", "destination_id": "gabala",
+      "district": "Gabala / Tufandag", "lat": 41.018, "lon": 47.893,
+      "stars": 4, "base_rate_azn": 170, "guest_score": 9.1, "family_friendly": true,
+      "amenities": ["wifi", "breakfast", "parking", "mountain-view", "family-rooms"],
+      "description": "Fictional mountain lodge near the Tufandag valley. Gabala railway station requires an onward road transfer."
+    },
+    {
+      "id": "HTL-GUB-001", "name": "Qudyalchay River Rooms", "destination_id": "guba",
+      "district": "Guba town", "lat": 41.367, "lon": 48.511,
+      "stars": 3, "base_rate_azn": 75, "guest_score": 8.6, "family_friendly": true,
+      "amenities": ["wifi", "breakfast", "parking", "family-rooms"],
+      "description": "Fictional rooms beside Guba's river corridor. Mountain excursions need road transport and a local conditions check."
+    },
+    {
+      "id": "HTL-SHD-001", "name": "Shahdag Snowline Chalet", "destination_id": "shahdag",
+      "district": "Shahdag Mountain Resort", "lat": 41.3215, "lon": 48.1326,
+      "stars": 4, "base_rate_azn": 240, "guest_score": 9.2, "family_friendly": true,
+      "amenities": ["wifi", "breakfast", "spa", "ski-storage", "parking", "family-rooms"],
+      "description": "Fictional mountain chalet. The demo permits skiing only December–March; actual snow, lift operation and road conditions are not verified."
+    },
+    {
+      "id": "HTL-GNJ-001", "name": "Javad Khan Street Hotel", "destination_id": "ganja",
+      "district": "Ganja centre", "lat": 40.682, "lon": 46.359,
+      "stars": 3, "base_rate_azn": 80, "guest_score": 8.5, "family_friendly": true,
+      "amenities": ["wifi", "breakfast", "lift", "family-rooms"],
+      "description": "Fictional central Ganja hotel. Daily Baku rail is a baseline service pattern, not a booked connection."
+    }
+  ],
+  "activities": [
+    {
+      "id": "ACT-001", "name": "Guided walk of Icherisheher (UNESCO Old City)", "destination_id": "baku",
+      "categories": ["history", "architecture"], "duration_min": 180, "season_months": [1,2,3,4,5,6,7,8,9,10,11,12],
+      "indoor": false, "price_azn": 35, "opening_hours": {"open": "09:00", "close": "18:00"},
+      "capacity_per_slot": 12, "lat": 40.3667, "lon": 49.8372,
+      "description": "Real UNESCO-listed Old City; fictional guided slot and per-person price.",
+      "how_to_get_there": "Icheri Sheher metro, then walk. Allow extra time on cobbled streets.",
+      "grounding_refs": ["old-city", "geography", "synthetic-activities"], "low_intensity": false, "travel_region": "baku"
+    },
+    {
+      "id": "ACT-002", "name": "Maiden Tower and roof deck", "destination_id": "baku",
+      "categories": ["history", "architecture"], "duration_min": 90, "season_months": [1,2,3,4,5,6,7,8,9,10,11,12],
+      "indoor": false, "price_azn": 15, "opening_hours": {"open": "10:00", "close": "18:00"},
+      "capacity_per_slot": 10, "lat": 40.3663, "lon": 49.8372,
+      "description": "Real Old City landmark with stairs; synthetic admission slot, capacity and price.",
+      "how_to_get_there": "Walk from Icheri Sheher metro through the Old City.",
+      "grounding_refs": ["old-city", "synthetic-activities"], "low_intensity": false, "travel_region": "baku"
+    },
+    {
+      "id": "ACT-003", "name": "Palace of the Shirvanshahs", "destination_id": "baku",
+      "categories": ["history", "architecture"], "duration_min": 120, "season_months": [1,2,3,4,5,6,7,8,9,10,11,12],
+      "indoor": true, "price_azn": 15, "opening_hours": {"open": "10:00", "close": "18:00"},
+      "capacity_per_slot": 12, "lat": 40.3662, "lon": 49.8336,
+      "description": "Real palace complex, including outdoor courtyards. Synthetic visit window and admission estimate.",
+      "how_to_get_there": "Icheri Sheher metro and an uphill walk through the Old City.",
+      "grounding_refs": ["old-city", "synthetic-activities"], "low_intensity": false, "travel_region": "baku"
+    },
+    {
+      "id": "ACT-004", "name": "Heydar Aliyev Center (Zaha Hadid)", "destination_id": "baku",
+      "categories": ["architecture", "family"], "duration_min": 120, "season_months": [1,2,3,4,5,6,7,8,9,10,11,12],
+      "indoor": true, "price_azn": 20, "opening_hours": {"open": "11:00", "close": "18:00"},
+      "capacity_per_slot": 16, "lat": 40.3953, "lon": 49.8671,
+      "description": "Real cultural centre; fictional slot, opening window and price. Indoor alternative for seasonally windy months, not a live weather recommendation.",
+      "how_to_get_there": "Nariman Narimanov metro and an approximately 20-minute walk, or a short road transfer.",
+      "grounding_refs": ["baku-landmarks", "seasonal-weather", "synthetic-activities"],
+      "closed_weekdays": [0], "low_intensity": true, "travel_region": "baku"
+    },
+    {
+      "id": "ACT-005", "name": "Azerbaijan Carpet Museum", "destination_id": "baku",
+      "categories": ["history", "family"], "duration_min": 90, "season_months": [1,2,3,4,5,6,7,8,9,10,11,12],
+      "indoor": true, "price_azn": 12, "opening_hours": {"open": "10:00", "close": "18:00"},
+      "capacity_per_slot": 16, "lat": 40.3595, "lon": 49.8352,
+      "description": "Real museum on the Boulevard; synthetic slot, opening window and admission price.",
+      "how_to_get_there": "Icheri Sheher metro, then approximately 15 minutes on foot towards the Boulevard.",
+      "grounding_refs": ["baku-landmarks", "seasonal-weather", "synthetic-activities"],
+      "closed_weekdays": [0], "low_intensity": true, "travel_region": "baku"
+    },
+    {
+      "id": "ACT-006", "name": "Funicular, Martyrs' Lane viewpoint and Flame Towers lights", "destination_id": "baku",
+      "categories": ["architecture", "nightlife"], "duration_min": 120, "season_months": [1,2,3,4,5,6,7,8,9,10,11,12],
+      "indoor": false, "price_azn": 10, "opening_hours": {"open": "17:00", "close": "22:00"},
+      "capacity_per_slot": 12, "lat": 40.3575, "lon": 49.8284,
+      "description": "Real memorial and viewpoint; visit respectfully. The synthetic evening window does not guarantee sunset, funicular operation or a light-show schedule.",
+      "how_to_get_there": "Walk towards the funicular from Icheri Sheher; a road transfer avoids the steep climb.",
+      "grounding_refs": ["baku-landmarks", "synthetic-activities"], "low_intensity": false, "travel_region": "baku"
+    },
+    {
+      "id": "ACT-007", "name": "Baku Boulevard and Caspian boat trip", "destination_id": "baku",
+      "categories": ["nature", "family"], "duration_min": 150, "season_months": [4,5,6,7,8,9,10],
+      "indoor": false, "price_azn": 25, "opening_hours": {"open": "09:00", "close": "20:00"},
+      "capacity_per_slot": 12, "lat": 40.368, "lon": 49.851,
+      "description": "Real waterfront; fictional combined walk and boat slot. Operation depends on conditions and is never guaranteed.",
+      "how_to_get_there": "Sahil metro, then walk towards the waterfront.",
+      "grounding_refs": ["baku-landmarks", "seasonal-weather", "synthetic-activities"],
+      "strict_season": true, "low_intensity": true, "travel_region": "baku"
+    },
+    {
+      "id": "ACT-008", "name": "Gobustan rock carvings and mud volcanoes", "destination_id": "baku",
+      "categories": ["history", "nature", "adventure"], "duration_min": 300, "season_months": [3,4,5,9,10,11],
+      "indoor": false, "price_azn": 70, "opening_hours": {"open": "09:00", "close": "18:00"},
+      "capacity_per_slot": 12, "lat": 40.11, "lon": 49.378,
+      "description": "Real sites south-west of Baku. The synthetic five-hour experience includes travel between the carvings and mud-volcano area, but not travel from Baku; avoid muddy access after heavy rain.",
+      "how_to_get_there": "Road transfer only; allow approximately 75 minutes each way from central Baku.",
+      "grounding_refs": ["gobustan", "road-routes", "seasonal-weather", "synthetic-activities"],
+      "low_intensity": false, "travel_region": "gobustan"
+    },
+    {
+      "id": "ACT-009", "name": "Ateshgah Fire Temple and Yanar Dag", "destination_id": "baku",
+      "categories": ["history", "nature"], "duration_min": 240, "season_months": [1,2,3,4,5,6,7,8,9,10,11,12],
+      "indoor": false, "price_azn": 55, "opening_hours": {"open": "10:00", "close": "20:00"},
+      "capacity_per_slot": 12, "lat": 40.4154, "lon": 50.0085,
+      "description": "Two real Absheron landmarks. Synthetic four-hour visit includes the road journey between them; outbound and return city transfers are additional.",
+      "how_to_get_there": "Road transfer on the Absheron Peninsula; approximately 60 minutes from central Baku before the experience.",
+      "grounding_refs": ["baku-landmarks", "road-routes", "synthetic-activities"],
+      "low_intensity": false, "travel_region": "absheron"
+    },
+    {
+      "id": "ACT-010", "name": "Food tour: plov, qutab, dolma and tea", "destination_id": "baku",
+      "categories": ["food", "family"], "duration_min": 180, "season_months": [1,2,3,4,5,6,7,8,9,10,11,12],
+      "indoor": true, "price_azn": 90, "opening_hours": {"open": "11:00", "close": "21:00"},
+      "capacity_per_slot": 12, "lat": 40.3712, "lon": 49.8369,
+      "description": "Real Azerbaijani food traditions around Fountains Square; fictional hosted tasting, venues and price. Ask any real provider about allergens.",
+      "how_to_get_there": "Walk from Sahil metro to the Fountains Square area.",
+      "grounding_refs": ["baku-landmarks", "synthetic-activities"], "low_intensity": true, "travel_region": "baku"
+    },
+    {
+      "id": "ACT-011", "name": "Sheki Khan's Palace and caravanserai day", "destination_id": "sheki",
+      "categories": ["history", "architecture", "food"], "duration_min": 420, "season_months": [3,4,5,6,7,8,9,10,11],
+      "indoor": false, "price_azn": 120, "opening_hours": {"open": "09:00", "close": "18:00"},
+      "capacity_per_slot": 12, "lat": 41.2042, "lon": 47.1965,
+      "description": "Real historic Sheki landmarks; synthetic seven-hour experience including local transfers. A Baku return journey plus this full day is too long: choose a Sheki hotel or arrange a separate overnight stay.",
+      "how_to_get_there": "Stay locally. Baku is approximately five hours away by road; the announced post-20-November-2026 night train has no confirmed timetable in this dataset.",
+      "grounding_refs": ["sheki", "rail-sheki", "road-routes", "synthetic-activities"],
+      "low_intensity": false, "travel_region": "sheki"
+    },
+    {
+      "id": "ACT-012", "name": "Gabala cable car and Nohur Lake", "destination_id": "gabala",
+      "categories": ["nature", "family", "adventure"], "duration_min": 360, "season_months": [5,6,7,8,9,10],
+      "indoor": false, "price_azn": 110, "opening_hours": {"open": "09:00", "close": "18:00"},
+      "capacity_per_slot": 12, "lat": 41.031, "lon": 47.889,
+      "description": "Real Tufandag and Nohur Lake locations. Synthetic six-hour experience includes local transfers; cable cars and mountain roads require a conditions check.",
+      "how_to_get_there": "Weekend or explicitly confirmed holiday rail to Gabala, then road transfer; otherwise approximately four hours by road from Baku.",
+      "grounding_refs": ["regional-landmarks", "rail-gabala", "synthetic-activities"],
+      "low_intensity": false, "travel_region": "gabala"
+    },
+    {
+      "id": "ACT-013", "name": "Guba, Candy Cane Mountains and Khinalig village", "destination_id": "guba",
+      "categories": ["nature", "adventure"], "duration_min": 540, "season_months": [5,6,7,8,9,10],
+      "indoor": false, "price_azn": 130, "opening_hours": {"open": "08:00", "close": "18:00"},
+      "capacity_per_slot": 10, "lat": 41.1774, "lon": 48.1268,
+      "description": "Real Guba-region and northern road-corridor sights. Synthetic nine-hour excursion includes substantial local driving; from Baku it is a very long day. Mountain access is not live-verified.",
+      "how_to_get_there": "Road only. The experience starts in Guba and includes the regional loop; a Guba hotel avoids the additional Baku return journey.",
+      "grounding_refs": ["regional-landmarks", "road-routes", "safety", "synthetic-activities"],
+      "low_intensity": false, "travel_region": "guba"
+    },
+    {
+      "id": "ACT-014", "name": "Shahdag ski day", "destination_id": "shahdag",
+      "categories": ["adventure", "nature", "family"], "duration_min": 360, "season_months": [12,1,2,3],
+      "indoor": false, "price_azn": 150, "opening_hours": {"open": "09:00", "close": "17:00"},
+      "capacity_per_slot": 10, "lat": 41.3217, "lon": 48.1321,
+      "description": "Real Shahdag mountain area; fictional six-hour ski slot and price. December–March only in the demo, subject to actual snow, lift operation and insurance.",
+      "how_to_get_there": "Road transfer only, approximately 3.5 hours each way from central Baku; staying in Shahdag is less tiring.",
+      "grounding_refs": ["shahdag-ski", "road-routes", "seasonal-weather", "synthetic-activities"],
+      "strict_season": true, "low_intensity": false, "travel_region": "shahdag"
+    },
+    {
+      "id": "ACT-015", "name": "Shamakhi wine tasting", "destination_id": "baku",
+      "categories": ["wine", "food"], "duration_min": 240, "season_months": [1,2,3,4,5,6,7,8,9,10,11,12],
+      "indoor": true, "price_azn": 85, "opening_hours": {"open": "10:00", "close": "18:00"},
+      "capacity_per_slot": 10, "lat": 40.632, "lon": 48.637,
+      "description": "Real Shamakhi wine-growing region with a fictional adult-only tasting and operator. Use a driver; the synthetic half-day duration excludes Baku transfers.",
+      "how_to_get_there": "Road transfer, approximately two hours each way from Baku. No rail route is assumed.",
+      "grounding_refs": ["regional-landmarks", "road-routes", "synthetic-activities"],
+      "adults_only": true, "low_intensity": false, "travel_region": "shamakhi"
+    }
+  ]
+}
